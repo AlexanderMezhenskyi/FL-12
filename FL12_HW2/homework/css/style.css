@@ -1,0 +1,47 @@
+/*
+
+write your code here
+
+*/
+li.tm-nav-item:hover {
+    background: lightskyblue;
+}
+li.tm-nav-item:hover a {
+    color: #fff;
+}
+.tm-banner {
+    background: linear-gradient(to right, lightskyblue, burlywood);
+ }
+.tm-banner-inner {
+    background: #fff;
+}
+.tm-banner-text {
+    text-shadow: 4px 4px 2px rgba(51,51,51,0.7);
+    animation: 4s move infinite ease-out 1s;
+}
+@keyframes move {
+    0% {
+        transform: translateX(200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#home + section .tm-content-box {
+    display: flex;
+    align-items: center;
+}
+#home + section .tm-content-box div {
+    text-align: center;
+}
+#home + section .tm-content-box div p:first-of-type {
+    text-align: left;
+    text-indent: 25px;
+}
+#about .box-bg:hover {
+    cursor: pointer;
+    background: lightgrey;
+}
+#about .box-bg:hover h2 {
+    font-style: italic;
+}
